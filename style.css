@@ -19,9 +19,15 @@ h1{
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
 }
+.nw::before{
+    content: "News ";
+}
 .news{
     background-color: #fff;
     padding: 50px 0 32px;
+}
+.news:nth-child(odd){
+    background-color: antiquewhite;
 }
 article{
     width: 768px;
